@@ -1,0 +1,135 @@
+/*@import url('https://fonts.googleapis.com/css?family=Pacifico');*/
+/*@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');*/
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+/*@import	'jquery.fancybox.min.css';*/
+
+#navbar{
+	background-color: #fff!important;
+	padding: 1.5%;
+}
+.container-fluid{
+	padding: 0!important;
+}
+.slider1{
+	background: url('../img/slider1.png') center no-repeat;
+	height: 500px;
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Nanum Brush Script', cursive;
+
+}
+.bx-wrapper{
+	margin-bottom: 0px!important;
+}
+
+.slider1 h1{
+	padding-top:170px;
+
+}
+#legendaSlider{
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	height: 500px;
+}
+#theMenuBackground{
+	background: url('../img/menuUnderSlider.png') no-repeat;
+	color: #fff;
+	height: 155px;
+	width: 155px;
+}
+/*lista de refericoes*/
+#categorias, .cor{
+	color: #f34949!important;
+}
+.row a{
+	text-decoration: none;
+	color: #343434;
+}
+.row a:hover{
+	/*text-decoration: underline;*/
+	color: #f34949;
+}
+.card{
+	border: 0.5px solid rgba(0,0,0,.125);
+    border-radius: 1.25rem;
+    transition: .2s;
+    margin-top: 2%;
+}
+.card:hover{
+	transform: scale(1.04); 
+}
+/*Botão*/
+#vermais{
+	padding: 0% 3%;
+	border-radius: 12px;
+	color: #343434;
+	border-color: #f34949!important;
+	/*transition: .1s;*/
+}
+#vermais:hover{
+	color: #fff;
+	border-color: #f34949!important;
+	background: #f34949!important;
+	/*transform: scale(1.04); */
+}
+/*/Botão*/
+
+/*Galeria*/
+#galeriaList{
+	list-style-type: none;
+	padding: 0;
+}
+#galeriaList li{
+	display: inline;
+}
+#galeriaList li img{
+	height: 237px;
+}
+/* /Galeria*/
+
+/*Cardapio*/
+.form-inline .form-gruop input{
+	/*padding: 4%;*/
+}
+/*Cardapio*/
+
+footer{
+	background: #3b3b3b;
+	padding: 3%;
+	margin-top: 3%;
+	color: #fff;
+}
+footer .container ul{
+	list-style-type: none;
+}
+footer .container ul a{
+	color: #fff;
+	font-weight: bold;
+}
+
+#logo a{
+	font-family: 'Hind', sans-serif;
+}
+.md-22{font-size: 22px;}
+.iml{margin-left: 2%; vertical-align: middle;}
+
+/*font-family: 'Hind', sans-serif;*/
+@media only screen and (min-width: 200px) and (max-width: 400px){
+	.slider1{
+		height: 400px;
+		background-size: 200%;
+	}
+	.slider1 h1, .slider2 h1{
+	padding-top:116px;
+	font-size: 3.8rem;
+	}
+}
+@media only screen and (min-width: 400px) and (max-width: 480px){
+	.slider1{
+		height: 400px;
+		background-size: 200%;
+	}
+	.slider1 h1, .slider2 h1{
+	padding-top:110px;
+	font-size: 4.5rem;
+	}
+}
