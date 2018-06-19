@@ -80,6 +80,7 @@
 }
 #galeriaList li{
 	display: inline;
+	margin-left: -5.4px; 
 }
 #galeriaList li img{
 	height: 237px;
