@@ -1,7 +1,7 @@
-/*@import url('https://fonts.googleapis.com/css?family=Pacifico');*/
-/*@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');*/
 @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 /*@import	'jquery.fancybox.min.css';*/
+
 
 #navbar{
 	background-color: #fff!important;
@@ -52,7 +52,7 @@ h4{
 	text-decoration: none;
 	color: #343434;
 }
-footer a:hover{
+footer ul li a:hover{
 	color: #f34949;
 }
 /*.row a:hover{
@@ -135,6 +135,11 @@ span.lineG:after {
 /*/Botão*/
 
 /*Galeria*/
+.serif{
+	padding: 3%;
+	font-family: 'Roboto Slab', serif;
+
+}
 #galeriaList{
 	list-style-type: none;
 	padding: 0;
@@ -176,10 +181,10 @@ footer .container ul a{
 
 /*font-family: 'Hind', sans-serif;*/
 @media only screen and (min-width: 200px) and (max-width: 400px){
-	.slider1{
+	/*.slider1{
 		height: 400px;
 		background-size: 200%;
-	}
+	}*/
 	.slider1 h1, .slider2 h1{
 	padding-top:116px;
 	font-size: 3.8rem;
