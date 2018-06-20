@@ -44,19 +44,68 @@
 	text-decoration: none;
 	color: #343434;
 }
+/*footer a:hover{
+	color: #f34949;
+}*/
 .row a:hover{
 	/*text-decoration: underline;*/
 	color: #f34949;
 }
+/*Span linhas no slider e no titulo da galeria*/
+.slider span,span.lineG  {
+  overflow: hidden;
+  text-align: center;
+}
+
+.slider span:before,
+.slider span:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 5%;
+}
+span.lineG:after {
+  background-color: #000;
+  opacity: 0.5;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 77%;
+}
+
+span:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+span:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+span.lineG:after {
+  left: 0.3em;
+  margin-right: -80%;
+}
+/*Span*/
 .card{
 	border: 0px solid rgba(0,0,0,.125);
     border-radius: 1.25rem;
     transition: .2s;
     margin-top: 2%;
 }
-.card:hover{
+.col-12 .card:hover{
 	transform: scale(1.04); 
 }
+#LoginPageForm .card{
+	border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1.25rem;
+}
+
 /*Botão*/
 #vermais{
 	padding: 0% 3%;
