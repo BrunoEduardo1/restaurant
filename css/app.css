@@ -10,10 +10,19 @@
 .container-fluid{
 	padding: 0!important;
 }
-.slider1{
+.slider1, .slider2{
 	background: url('../img/slider1.png') center no-repeat;
 	height: 500px;
 	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Nanum Brush Script', cursive;
+
+}
+.legendaSlider{
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	height: 500px;
+}
+h4{
 	font-family: 'Nanum Brush Script', cursive;
 
 }
@@ -21,15 +30,11 @@
 	margin-bottom: 0px!important;
 }
 
-.slider1 h1{
+.slider h1{
 	padding-top:170px;
 
 }
-#legendaSlider{
-	background: rgba(0,0,0,0.5);
-	color: #fff;
-	height: 500px;
-}
+
 #theMenuBackground{
 	background: url('../img/menuUnderSlider.png') no-repeat;
 	color: #fff;
@@ -40,17 +45,20 @@
 #categorias, .cor{
 	color: #f34949!important;
 }
+.nav-link.active{
+	color: #f34949!important;
+}
 .row a{
 	text-decoration: none;
 	color: #343434;
 }
-/*footer a:hover{
-	color: #f34949;
-}*/
-.row a:hover{
-	/*text-decoration: underline;*/
+footer a:hover{
 	color: #f34949;
 }
+/*.row a:hover{
+	text-decoration: underline;
+	color: #f34949;
+}*/
 /*Span linhas no slider e no titulo da galeria*/
 .slider span,span.lineG  {
   overflow: hidden;
@@ -61,6 +69,7 @@
 .slider span:after {
   background-color: #fff;
   content: "";
+  opacity: 0.9%;
   display: inline-block;
   height: 1px;
   position: relative;
@@ -98,13 +107,16 @@ span.lineG:after {
     transition: .2s;
     margin-top: 2%;
 }
-.col-12 .card:hover{
+.move .card:hover{
 	transform: scale(1.04); 
 }
 #LoginPageForm .card{
 	border: 1px solid rgba(0,0,0,.125);
     border-radius: 1.25rem;
 }
+.preco {
+	padding-left: 0;
+} 
 
 /*Botão*/
 #vermais{

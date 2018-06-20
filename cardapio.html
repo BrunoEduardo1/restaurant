@@ -20,7 +20,7 @@
 				   <div class="navbar-nav ml-auto">
 					    <a class="nav-item nav-link" href="paginalinicia">Home </a>
 					    <a class="nav-item nav-link active" href="#">Cardápio<span class="sr-only">(current)</span></a>
-					    <a class="nav-item nav-link cor" href="#">Login</a>
+					    <a class="nav-item nav-link" href="#">Login</a>
 					</div>
 				</div>
 			</div>
@@ -28,18 +28,17 @@
 		<!-- Icone abaixo do slider -->
 			<div class="container">
 				<div class="row">
-					<div class="mx-auto text-center " id="theMenuBackground">
-						<h5 class="display-5 my-3">Menu</h5>
+					<div class="mx-auto text-center" id="theMenuBackground">
+						<h5 class="display-5 my-3">Cardápio</h5>
 					</div>
 				</div>
 				<!-- /Icone abaixo do slider -->
-				<!-- Cards com os intens -->
-				<div class="row">
-					<div class="col-12 col-md-3">
+			<!-- Cards com os intens  maneira 1-->
+				<!-- <div class="row">
+					<div class="col-12 col-md-6 col-lg-3">
 						<a href="">
 						<div class="card">
 						  <img class="card-img-top" src="img/refeicao1.png" alt="Imagem da refeição">
-						  </a>
 						  <div class="card-body">
 						  	<div class="row">
 						  		<div class="col-9">
@@ -63,103 +62,244 @@
 						   
 						  </div>
 						</div>
+						</a>
 					</div>		
-				<div class="col-12 col-md-3">
-					<div class="card">
-						  <img class="card-img-top" src="img/refeicao2.png" alt="Imagem da refeição">
-						  <div class="card-body">
-						  	<div class="row">
-						  		<div class="col-9">
-									<p class="card-text" id="descricao">Sugiat nulla sint</p>
-								</div>
-								<div class="col-3">
-									<p class="text-right" id="preco">$24</p>
-								</div>
-								<div class="col-12">
-									<p id="categorias">Lanche</p>
-								</div>
-								<div class="col-6 my-auto">
-									<label for="quantidade">Quantidade</label>
-								</div>
-								<div class="col-6">
-									<form>
-										<input type="number" name="quantidade" class="form-control" min="0" max="12">
-									</form>
-								</div>
-						  	</div>
-						  </div>
-						</div>
-				</div>
-				<div class="col-12 col-md-3">
-					<div class="card">
-						<img class="card-img-top" src="img/refeicao3.png" alt="Imagem da refeição">
-						<div class="card-body">
-							<div class="row">
-								<div class="col-9">
-									<p class="card-text" id="descricao">Sugiat nulla sint</p>
-								</div>
-								<div class="col-3">
-									<p class="text-right" id="preco">$60</p>
-								</div>
-								<div class="col-12">
-									<p id="categorias">Sobremesa</p>
-								</div>
-								<div class="col-6 my-auto">
-									<label for="quantidade">Quantidade</label>
-								</div>
-								<div class="col-6">
-									<form>
-										<input type="number" name="quantidade" class="form-control" min="0" max="12">
-									</form>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="card">
+							  <img class="card-img-top" src="img/refeicao2.png" alt="Imagem da refeição">
+							  <div class="card-body">
+							  	<div class="row">
+							  		<div class="col-9">
+										<p class="card-text" id="descricao">Sugiat nulla sint</p>
+									</div>
+									<div class="col-3">
+										<p class="text-right" id="preco">$24</p>
+									</div>
+									<div class="col-12">
+										<p id="categorias">Lanche</p>
+									</div>
+									<div class="col-6 my-auto">
+										<label for="quantidade">Quantidade</label>
+									</div>
+									<div class="col-6">
+										<form>
+											<input type="number" name="quantidade" class="form-control" min="0" max="12">
+										</form>
+									</div>
+							  	</div>
+							  </div>
+							</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="card">
+							<img class="card-img-top" src="img/refeicao3.png" alt="Imagem da refeição">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-9">
+										<p class="card-text" id="descricao">Sugiat nulla sint</p>
+									</div>
+									<div class="col-3">
+										<p class="text-right" id="preco">$60</p>
+									</div>
+									<div class="col-12">
+										<p id="categorias">Sobremesa</p>
+									</div>
+									<div class="col-6 my-auto">
+										<label for="quantidade">Quantidade</label>
+									</div>
+									<div class="col-6">
+										<form>
+											<input type="number" name="quantidade" class="form-control" min="0" max="12">
+										</form>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 col-md-3">
-					<div class="card">
-						<img class="card-img-top" src="img/refeicao4.png" alt="Imagem da refeição">
-						<div class="card-body">
-							<div class="row">
-								<div class="col-9">
-									<p class="card-text" id="descricao">Sugiat nulla sint</p>
-								</div>
-								<div class="col-3">
-									<p class="text-right" id="preco">$17</p>
-								</div>
-								<div class="col-12">
-									<p id="categorias">Vegano</p>
-								</div>
-								<div class="col-6 my-auto">
-									<label for="quantidade">Quantidade</label>
-								</div>
-								<div class="col-6">
-									<form>
-										<input type="number" name="quantidade" class="form-control" min="0" max="12">
-									</form>
+					<div class="col-12 col-md-6 col-lg-3">
+						<div class="card">
+							<img class="card-img-top" src="img/refeicao4.png" alt="Imagem da refeição">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-9">
+										<p class="card-text" id="descricao">Sugiat nulla sint</p>
+									</div>
+									<div class="col-3">
+										<p class="text-right" id="preco">$17</p>
+									</div>
+									<div class="col-12">
+										<p id="categorias">Vegano</p>
+									</div>
+									<div class="col-6 my-auto">
+										<label for="quantidade">Quantidade</label>
+									</div>
+									<div class="col-6">
+										<form>
+											<input type="number" name="quantidade" class="form-control" min="0" max="12">
+										</form>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- /Cards com os intens -->
-				<div class="col-12">
-					<h4 class="">Dados do Cliente</h4>
-					<form>
-						<div class="form-inline text-center">
-							<div class="col">
-								<input type="text" name="Client" class="form-control" placeholder="Nome">
-							</div>
-							<div class="col">
-								<input type="text" name="date_born" class="form-control dataNas" placeholder="Data de Nascimento">
-							</div>
-							<div class="col">
-								<input type="email" name="email" class="form-control" placeholder="Email">
+				</div><!-- /row --> -->
+			<!-- /Cards com os intens  maneira 1-->
+			
+			<!-- Cards com os intens Maneira 2-->
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-6">
+						<div class="card">
+							<div class="row">
+								<div class="col-6 col-md-12 col-lg-6">
+									<img class="card-img-top" src="img/refeicao2.png" alt="Imagem da refeição">
+								</div>
+								<div class="col-6 col-md-12 col-lg-6">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-9">
+												<p class="card-text" id="descricao">Sugiat nulla sint</p>
+											</div>
+											<div class="col-3 preco">
+												<p class="text-right">$17</p>
+											</div>
+											<div class="col-12">
+												<p id="categorias">Almoço</p>
+											</div>
+											<div class="col-6 my-auto">
+												<label for="quantidade">Quantidade</label>
+											</div>
+											<div class="col-6">
+												<form>
+													<input type="number" name="quantidade" class="form-control" min="0" max="12" placeholder="0">
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div> <!--/card-->
+					</div><!--/col-->
+					<div class="col-12 col-md-6	">
+						<div class="card">
+							<div class="row">
+								<div class="col-6 col-md-12 col-lg-6">
+									<img class="card-img-top" src="img/refeicao3.png" alt="Imagem da refeição">
+								</div>
+								<div class="col-6 col-md-12 col-lg-6">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-9">
+												<p class="card-text" id="descricao">Sugiat nulla sint</p>
+											</div>
+											<div class="col-3 preco">
+												<p class="text-right">$17</p>
+											</div>
+											<div class="col-12">
+												<p id="categorias">Sobremesa</p>
+											</div>
+											<div class="col-6 my-auto">
+												<label for="quantidade">Quantidade</label>
+											</div>
+											<div class="col-6">
+												<form>
+													<input type="number" name="quantidade" class="form-control" min="0" max="12" placeholder="0">
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div> <!--/card-->
+					</div><!--/col-->
+					<div class="col-12 col-md-6	">
+						<div class="card">
+							<div class="row">
+								<div class="col-6 col-md-12 col-lg-6">
+									<img class="card-img-top" src="img/refeicao4.png" alt="Imagem da refeição">
+								</div>
+								<div class="col-6 col-md-12 col-lg-6">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-9">
+												<p class="card-text" id="descricao">Sugiat nulla sint</p>
+											</div>
+											<div class="col-3 preco">
+												<p class="text-right">$17</p>
+											</div>
+											<div class="col-12">
+												<p id="categorias">Vegano</p>
+											</div>
+											<div class="col-6 my-auto">
+												<label for="quantidade">Quantidade</label>
+											</div>
+											<div class="col-6">
+												<form>
+													<input type="number" name="quantidade" class="form-control" min="0" max="12" placeholder="0">
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div> <!--/card-->
+					</div><!--/col-->
+					<div class="col-12 col-md-6	">
+						<div class="card">
+							<div class="row">
+								<div class="col-6 col-md-12 col-lg-6">
+									<img class="card-img-top" src="img/refeicao4.png" alt="Imagem da refeição">
+								</div>
+								<div class="col-6 col-md-12 col-lg-6">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-9">
+												<p class="card-text" id="descricao">Sugiat nulla sint</p>
+											</div>
+											<div class="col-3 preco">
+												<p class="text-right">$17</p>
+											</div>
+											<div class="col-12">
+												<p id="categorias">Vegano</p>
+											</div>
+											<div class="col-6 my-auto">
+												<label for="quantidade">Quantidade</label>
+											</div>
+											<div class="col-6">
+												<form>
+													<input type="number" name="quantidade" class="form-control" min="0" max="12" placeholder="0">
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div> <!--/card-->
+					</div><!--/col-->
+				</div>	<!--/row-->
+			<!-- /Cards com os intens maneira 2-->
+			
+			
+				<div class="col-12 mx-auto my-3">
+					<h3 class="">Dados do Cliente</h4>
+					<form class="row mt-3">
+						<div class="col-12 col-md-4 mt-1">
+							<input type="text" name="client" class="form-control" placeholder="Nome">
+						</div>
+						<div class="col-12 col-md-4 mt-1">
+							<!-- brirth -->
+							<input type="text" name="date_born" class="form-control dataNas" placeholder="Data de Nascimento">
+						</div>
+						<div class="col-12 col-md-4 mt-1">
+							<div class="input-group mb-2">
+							    <div class="input-group-prepend">
+						       	<div class="input-group-text">@</div>
+						    </div>
+							<input type="email" name="email" class="form-control" placeholder="Email">
 							</div>
 						</div>
 					</form>
 				</div>
-				<div class="col-12 text-center my-3">
+				<div class="col-12 text-center my-3 mx-auto">
 					<button class="btn btn-outline-primary btn-block">Realizar pedido <i class="fas fa-angle-down md-22 iml"></i></button>
 					<a href="index.html" class="btn btn-outline-danger btn-block"> Sair</a>
 				</div>
