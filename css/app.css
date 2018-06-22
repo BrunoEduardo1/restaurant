@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 /*@import	'jquery.fancybox.min.css';*/
+@import 'galeria.css';
 
 
 #navbar{
@@ -137,20 +138,11 @@ span.lineG:after {
 /*Galeria*/
 .serif{
 	padding: 3%;
+	padding-left: 0;
 	font-family: 'Roboto Slab', serif;
 
 }
-#galeriaList{
-	list-style-type: none;
-	padding: 0;
-}
-#galeriaList li{
-	display: inline;
-	margin-left: -5.4px; 
-}
-#galeriaList li img{
-	height: 237px;
-}
+
 /* /Galeria*/
 
 /*Cardapio*/
@@ -189,6 +181,12 @@ footer .container ul a{
 	padding-top:116px;
 	font-size: 3.8rem;
 	}
+	#img1 li a img{
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto; 
+		
+	}
 }
 @media only screen and (min-width: 400px) and (max-width: 480px){
 	.slider1{
@@ -199,4 +197,20 @@ footer .container ul a{
 	padding-top:110px;
 	font-size: 4.5rem;
 	}
+	#img1 li a img{
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto; 
+		
+	}
+
 }
+
+/*Banner para altas resoluuções*/
+@media only screen and (min-width:1440px) {
+	.slider1, .slider2{
+		background-size: 100%
+	}
+}
+
+
