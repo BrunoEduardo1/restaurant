@@ -1,6 +1,6 @@
 /*Grid para a galeria*/
-
 .galeria{
+	margin: 2%;
 	display: grid;
 	height: 90%;
 	/*Numero de linhas e a altura*/
@@ -25,7 +25,7 @@
 	/*background-size: cover; */
 }
 .galeria-item.large img{
-	width: 142%;
+	width: 158%;
 	height: 100%;
 }
 /*Grid para a galeria*/

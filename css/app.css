@@ -190,8 +190,8 @@ footer .container ul a{
 }
 @media only screen and (min-width: 400px) and (max-width: 480px){
 	.slider1{
-		height: 400px;
-		background-size: 200%;
+		height: 500px;
+		background-size: 300%;
 	}
 	.slider1 h1, .slider2 h1{
 	padding-top:110px;
