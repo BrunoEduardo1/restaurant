@@ -32,121 +32,7 @@
 						<h5 class="display-5 my-3">Menu</h5>
 					</div>
 				</div>
-				<!-- /Icone abaixo do slider -->
-			<!-- Cards com os intens  maneira 1-->
-				<!-- <div class="row">
-					<div class="col-12 col-md-6 col-lg-3">
-						<a href="">
-						<div class="card">
-						  <img class="card-img-top" src="img/refeicao1.png" alt="Imagem da refeição">
-						  <div class="card-body">
-						  	<div class="row">
-						  		<div class="col-9">
-									<p class="card-text" id="descricao">Sugiat nulla sint</p>
-								</div>
-								<div class="col-3">
-									<p class="text-right" id="preco">$30</p>
-								</div>
-								<div class="col-12">
-									<p id="categorias">Almoço</p>
-								</div>
-								<div class="col-6 my-auto">
-									<label for="quantidade">Quantidade</label>
-								</div>
-								<div class="col-6">
-									<form>
-										<input type="number" name="quantidade" class="form-control" min="0" max="12">
-									</form>
-								</div>
-						  	</div>
-						   
-						  </div>
-						</div>
-						</a>
-					</div>		
-					<div class="col-12 col-md-6 col-lg-3">
-						<div class="card">
-							  <img class="card-img-top" src="img/refeicao2.png" alt="Imagem da refeição">
-							  <div class="card-body">
-							  	<div class="row">
-							  		<div class="col-9">
-										<p class="card-text" id="descricao">Sugiat nulla sint</p>
-									</div>
-									<div class="col-3">
-										<p class="text-right" id="preco">$24</p>
-									</div>
-									<div class="col-12">
-										<p id="categorias">Lanche</p>
-									</div>
-									<div class="col-6 my-auto">
-										<label for="quantidade">Quantidade</label>
-									</div>
-									<div class="col-6">
-										<form>
-											<input type="number" name="quantidade" class="form-control" min="0" max="12">
-										</form>
-									</div>
-							  	</div>
-							  </div>
-							</div>
-					</div>
-					<div class="col-12 col-md-6 col-lg-3">
-						<div class="card">
-							<img class="card-img-top" src="img/refeicao3.png" alt="Imagem da refeição">
-							<div class="card-body">
-								<div class="row">
-									<div class="col-9">
-										<p class="card-text" id="descricao">Sugiat nulla sint</p>
-									</div>
-									<div class="col-3">
-										<p class="text-right" id="preco">$60</p>
-									</div>
-									<div class="col-12">
-										<p id="categorias">Sobremesa</p>
-									</div>
-									<div class="col-6 my-auto">
-										<label for="quantidade">Quantidade</label>
-									</div>
-									<div class="col-6">
-										<form>
-											<input type="number" name="quantidade" class="form-control" min="0" max="12">
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-md-6 col-lg-3">
-						<div class="card">
-							<img class="card-img-top" src="img/refeicao4.png" alt="Imagem da refeição">
-							<div class="card-body">
-								<div class="row">
-									<div class="col-9">
-										<p class="card-text" id="descricao">Sugiat nulla sint</p>
-									</div>
-									<div class="col-3">
-										<p class="text-right" id="preco">$17</p>
-									</div>
-									<div class="col-12">
-										<p id="categorias">Vegano</p>
-									</div>
-									<div class="col-6 my-auto">
-										<label for="quantidade">Quantidade</label>
-									</div>
-									<div class="col-6">
-										<form>
-											<input type="number" name="quantidade" class="form-control" min="0" max="12">
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- /row --> 
-				<!-- --> 
-			<!-- /Cards com os intens  maneira 1-->
-			
-			<!-- Cards com os intens Maneira 2-->
+			<!-- Cards com os itens Maneira 2-->
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-6">
 						<div class="card">
@@ -341,25 +227,24 @@
 						</div> <!--/card-->
 					</div><!--/col-->
 				</div>	<!--/row-->
-			<!-- /Cards com os intens maneira 2-->
+			<!-- /Cards com os itens maneira 2-->
 			
 			
 				<div class="col-12 mx-auto my-3">
 					<h3 class="">Dados do Cliente</h4>
 					<form class="row mt-3">
 						<div class="col-12 col-md-4 mt-1">
-							<input type="text" name="client" class="form-control" placeholder="Nome">
+							<input type="text" name="client" class="form-control" placeholder="Nome" required="required">
 						</div>
 						<div class="col-12 col-md-4 mt-1">
-							<!-- brirth -->
-							<input type="text" name="" class="form-control dataNas" placeholder="Data de Nascimento">
+							<input type="text" name="" class="form-control dataNas" placeholder="Data de Nascimento" required="required">
 						</div>
 						<div class="col-12 col-md-4 mt-1">
 							<div class="input-group mb-2">
 							    <div class="input-group-prepend">
 						       	<div class="input-group-text">@</div>
 						    </div>
-							<input type="email" name="email" class="form-control" placeholder="Email">
+							<input type="email" name="email" class="form-control" placeholder="Email" required="required">
 							</div>
 						</div>
 					</form>
@@ -379,7 +264,7 @@
 						<div class="col-md-3">
 							<li>
 								<a href="">Restaurante Maceió</a>
-								<p>Ruas desconhecida, 666 Maceió/AL</p>
+								<p>Ruas desconhecida, 666 <br> Maceió/AL</p>
 							</li>
 						</div>
 						<div class="col-md-3">
