@@ -142,6 +142,16 @@ span.lineG:after {
 	font-family: 'Roboto Slab', serif;
 
 }
+#galeriaList{
+	list-style-type: none;
+}
+#galeriaList li{
+	display: inline;
+}
+#galeriaList li img{
+	max-width: 300px;
+}
+
 
 /* /Galeria*/
 
