@@ -1,6 +1,4 @@
 $(function () {
-	 //mascara para o numero da matricula
-	 console.log('Js');
 	  $('.dataNas').mask('00/00/0000');
 	 //A pagina tem a classe slider?
 	 if ($(this).has('.slider').length) {
@@ -19,5 +17,14 @@ $(function () {
 			ticker: false
 		});
 	}
+	
+	$('#login').blur(function () {
+		if ($(this).val().length==0) {
+			$('#login').addClass('is-invalid');
+		} else{
+			$('#login').removeClass('is-invalid');
+		}
+		
+	});
 
 });
